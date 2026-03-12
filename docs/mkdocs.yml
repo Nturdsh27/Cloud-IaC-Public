@@ -1,8 +1,8 @@
 site_name: DevSecOps Starter Kit
 site_description: Production-ready, secure-by-default GCP infrastructure modules for startups
-site_url: https://Nturdsh27.github.io/Cloud-IaC/
-repo_url: https://github.com/Nturdsh27/Cloud-IaC
-repo_name: Nturdsh27/Cloud-IaC
+site_url: https://nturdsh27.github.io/Cloud-IaC-Public/
+repo_url: https://github.com/Nturdsh27/Cloud-IaC-Public
+repo_name: Nturdsh27/Cloud-IaC-Public
 docs_dir: docs
 
 theme:
@@ -54,6 +54,9 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.details
   - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - attr_list
   - md_in_html
