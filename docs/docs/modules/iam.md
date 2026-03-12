@@ -66,4 +66,4 @@ module "app_sa" {
 - **Custom IAM roles** — narrower than GCP predefined roles
 - **SA key creation alerting** — instant Slack alert if anyone creates a key
 - **Organization-level IAM audit policy**
-
+  
